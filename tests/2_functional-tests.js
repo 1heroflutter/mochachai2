@@ -71,7 +71,7 @@ suite("Functional Tests", function () {
 });
 
 const Browser = require("zombie");
-Browser.site = "http://0.0.0.0:3000";
+Browser.site = "http://0.0.0.0:10000";
 const browser = new Browser();
 
 suiteSetup(function (done) {
